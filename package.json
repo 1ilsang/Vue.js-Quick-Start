@@ -1,0 +1,23 @@
+{
+  "name": "vuequickstart",
+  "version": "1.0.0",
+  "description": "Vue.js 퀵 스타트 책을 공부하며 내용, 생각을 정리한 글입니다.",
+  "main": "index.js",
+  "dependencies": {
+    "vue-cli": "^2.9.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1ilsang/Vue.js-Quick-Start.git"
+  },
+  "author": "LSC",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1ilsang/Vue.js-Quick-Start/issues"
+  },
+  "homepage": "https://github.com/1ilsang/Vue.js-Quick-Start#readme"
+}
