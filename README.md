@@ -12,7 +12,12 @@ Vue.js Quick Start
 Vue 소개, 장점, 플러그인, vue-cli
 ```
 
-### 2. [기초]()
+### 2. [기초](http://1ilsang.blog.me/221249302573)
 ```javascript
 v-text, v-html, v-bind, v-model, v-show, v-if, v-else, v-for, v-pre, computed, Search Filter
+```
+
+### 3. [Vue 인스턴스]()
+```javascript
+추가중
 ```
