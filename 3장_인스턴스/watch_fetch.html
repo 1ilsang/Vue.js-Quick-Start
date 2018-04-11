@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>1ilsang.blog.me</title>
+    <script src="https://unpkg.com/vue/dist/vue.js"></script>
+    <!-- underscore 라이브러리가 사용되고 있다. -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore.js"></script>
+    <!-- fetch, promise -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/2.0.3/fetch.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/es6-promise/4.1.1/es6-promise.auto.min.js"></script>
+    <!-- style -->
+    <style>
+        #list {
+            width: 400px;
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        #list td, #list th {
+            border: 1px solid black;
+            text-align: center;
+        }
+
+        #list > thead > tr {
+            color: yellow;
+            background-color: purple;
+        }
+    </style>
+</head>
+<body>
+<div id="test">
+    <p>
+        이름 : <input type="text" v-model="name" placeholder="두자 이상 입력">
+    </p>
+    <table id="list">
+        <thead>
+        <tr>
+            <th>번호</th>
+            <th>이름</th>
+            <th>전화번호</th>
+            <th>주소</th>
+        </tr>
+        </thead>
+        <tbody id="contacts">
+        <tr v-for="contact in contactList">
+            <td>{{contact.no}}</td>
+            <td>{{contact.name}}</td>
+            <td>{{contact.tel}}</td>
+            <td>{{contact.address}}</td>
+        </tr>
+        </tbody>
+    </table>
+    <div v-show="isProcessing === true">조회중</div>
+</div>
+</body>
+<script type="text/javascript">
+var vm = new Vue({
+    el: '#test',
+    data: {
+        name: '',
+        isProcessing: false,
+        contactList: []
+    },
+    watch: {
+        name: function (val) {
+            if (val.length >= 2) {
+                this.fetchContacts();
+            } else {
+                this.contactList = [];
+            }
+        }
+    },
+    methods: {
+        fetchContacts: _.debounce(function () {
+            this.contactList = [];
+            this.isProcessing = true;
+            var url = 'http://sample.bmaster.kro.kr/contacts_long/search/'
+                + this.name;
+            console.log(url);
+            var vm = this;
+            fetch(url)
+            .then(function (response) {
+                return response.json();
+            }).then(function (json) {
+                vm.contactList = json;
+                vm.isProcessing = false;
+            }).catch(function (ex) {
+                console.log('parsing failed', ex);
+                vm.contactList = [];
+                vm.isProcessing = false;
+            });
+        }, 300)
+    }
+});
+</script>
+</html>
