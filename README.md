@@ -19,6 +19,5 @@ v-text, v-html, v-bind, v-model, v-show, v-if, v-else, v-for, v-pre, computed, S
 
 ### 3. [Vue 인스턴스]()
 ```javascript
-data, el, computed vs methods, watch, fetch, _.debounce, v-cloak, Lifecycle 
-추가중
+data, el, computed vs methods, watch, fetch, _.debounce, v-cloak, Lifecycle
 ```
