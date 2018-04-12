@@ -17,7 +17,7 @@ Vue 소개, 장점, 플러그인, vue-cli
 v-text, v-html, v-bind, v-model, v-show, v-if, v-else, v-for, v-pre, computed, Search Filter
 ```
 
-### 3. [Vue 인스턴스]()
+### 3. [Vue 인스턴스](http://1ilsang.blog.me/221250523238)
 ```javascript 
 data, el, computed vs methods, watch, fetch, _.debounce, v-cloak, Lifecycle
 ```
