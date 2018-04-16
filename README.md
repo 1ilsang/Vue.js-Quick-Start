@@ -29,5 +29,5 @@ v-on, prevent, BUBBLING_PHASE, stopPropagation, 키 코드 수식어, 마우스 
 
 ### 5. [Style]()
 ```javascript
-mouseOver, Style class, computed Style, component Style
+mouseOver, class Style, computed Style, component Style, TodoList App
 ```
