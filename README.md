@@ -22,7 +22,7 @@ v-text, v-html, v-bind, v-model, v-show, v-if, v-else, v-for, v-pre, computed, S
 data, el, computed vs methods, watch, fetch, _.debounce, v-cloak, Lifecycle
 ```
 
-### 4. [Event]()
+### 4. [Event](http://1ilsang.blog.me/221254097398)
 ```javascript
-v-on, prevent, BUBBLING_PHASE, stopPropagation, 키 코드 수식어, 마우스 버튼 수식어, 
+v-on, prevent, BUBBLING_PHASE, stopPropagation, 키 코드 수식어, 마우스 버튼 수식어 
 ```
