@@ -27,7 +27,12 @@ data, el, computed vs methods, watch, fetch, _.debounce, v-cloak, Lifecycle
 v-on, prevent, BUBBLING_PHASE, stopPropagation, 키 코드 수식어, 마우스 버튼 수식어 
 ```
 
-### 5. [Style]()
+### 5. [Style](http://1ilsang.blog.me/221254160523)
 ```javascript
 mouseOver, class Style, computed Style, component Style, TodoList App
+```
+
+### 6. [컴포넌트 기초]()
+```javascript
+컴포넌트란?, data option, 
 ```
