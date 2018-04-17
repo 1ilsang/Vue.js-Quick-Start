@@ -9,7 +9,7 @@ Vue.js Quick Start
 
 ### 1. [시작하기](http://1ilsang.blog.me/221139347379)
 ```javascript
-Vue 소개, 장점, 플러그인, vue-cli
+Vue 소개, 장점, plugin, vue-cli
 ```
 
 ### 2. [기초](http://1ilsang.blog.me/221249302573)
@@ -24,7 +24,7 @@ data, el, computed vs methods, watch, fetch, _.debounce, v-cloak, Lifecycle
 
 ### 4. [Event](http://1ilsang.blog.me/221254097398)
 ```javascript
-v-on, prevent, BUBBLING_PHASE, stopPropagation, 키 코드 수식어, 마우스 버튼 수식어 
+v-on, prevent, BUBBLING_PHASE, stopPropagation, keyup, mouse event 
 ```
 
 ### 5. [Style](http://1ilsang.blog.me/221254160523)
@@ -34,5 +34,5 @@ mouseOver, class Style, computed Style, component Style, TodoList App
 
 ### 6. [컴포넌트 기초]()
 ```javascript
-컴포넌트란?, data option, props, event, 
+component, data option, props, event, event bus
 ```
