@@ -32,7 +32,7 @@ v-on, prevent, BUBBLING_PHASE, stopPropagation, keyup, mouse event
 mouseOver, class Style, computed Style, component Style, TodoList App
 ```
 
-### 6. [컴포넌트 기초]()
+### 6. [컴포넌트 기초](http://1ilsang.blog.me/221254980087)
 ```javascript
 component, data option, props, event, event bus
 ```
