@@ -34,5 +34,5 @@ mouseOver, class Style, computed Style, component Style, TodoList App
 
 ### 6. [컴포넌트 기초]()
 ```javascript
-컴포넌트란?, data option, 
+컴포넌트란?, data option, props, event, 
 ```
