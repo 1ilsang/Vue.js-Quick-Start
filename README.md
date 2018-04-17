@@ -37,7 +37,7 @@ mouseOver, class Style, computed Style, component Style, TodoList App
 component, data option, props, event, event bus
 ```
 
-### 7. [ES6]()
+### 7. [ES6](http://1ilsang.blog.me/221255052445)
 ```javascript
-let, const,
+let, const, babel, module, ..., ES6
 ```
