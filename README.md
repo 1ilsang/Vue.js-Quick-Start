@@ -36,3 +36,8 @@ mouseOver, class Style, computed Style, component Style, TodoList App
 ```javascript
 component, data option, props, event, event bus
 ```
+
+### 7. [ES6]()
+```javascript
+let, const,
+```
