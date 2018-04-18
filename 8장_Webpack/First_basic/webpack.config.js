@@ -20,9 +20,9 @@ module.exports = {
     plugins : [
         // new webpack.optimize.UglifyJsPlugin()
     ],
-    // devServer: {
-    //     contentBase: './public/',
-    //     port: 3000,
-    //     historyApiFallback:true
-    // }
+    devServer: {
+        contentBase: './public/',
+        port: 3000,
+        historyApiFallback:true
+    }
 }
