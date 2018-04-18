@@ -1,4 +1,5 @@
 .idea/
 node_modules/
 7장_ES6/node_modules/
-8장_Webpack/node_modules/
+8장_Webpack/First_basic/node_modules/
+8장_Webpack/Second_boilerplate/node_modules/
