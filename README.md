@@ -47,12 +47,12 @@ let, const, babel, module, ..., ES6
 entry, output, module, plugins, dist, webpack-dev-server, boilerplate, pwa
 ```
 
-### 9. [컴포넌트 심화]()
+### 9. [컴포넌트 심화](http://1ilsang.blog.me/221255898006)
 ```javascript
-Single component, Scope CSS, CSS Module, Slot, Dynamic component
+Single component, Scope CSS, CSS Module, Slot, Dynamic component, keep-alive, RecursiveComponent
 ```
 
-### 10. []()
+### 10. [axios를 이용한 서버통신]()
 ```javascript
 
 ```
