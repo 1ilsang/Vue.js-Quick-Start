@@ -54,5 +54,5 @@ Single component, Scope CSS, CSS Module, Slot, Dynamic component, keep-alive, Re
 
 ### 10. [axios를 이용한 서버통신]()
 ```javascript
-http SOP, CORS, axios
+http SOP, CORS, axios, ToyProject
 ```
