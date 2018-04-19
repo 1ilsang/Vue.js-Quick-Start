@@ -52,7 +52,12 @@ entry, output, module, plugins, dist, webpack-dev-server, boilerplate, pwa
 Single component, Scope CSS, CSS Module, Slot, Dynamic component, keep-alive, RecursiveComponent
 ```
 
-### 10. [axios를 이용한 서버통신]()
+### 10. [axios를 이용한 서버통신](http://1ilsang.blog.me/221256891092)
 ```javascript
-http SOP, CORS, axios, ToyProject
+http SOP, CORS, axios, ToyProject(속성 계산명, props)
+```
+
+### 11. [Vuex를 이용한 상태 관리]()
+```javascript
+Architecture, State, Store, Mutation
 ```
