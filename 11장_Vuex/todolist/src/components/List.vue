@@ -37,27 +37,31 @@
 </template>
 <script type="text/javascript">
 import Constant from '../constant'
-import { mapState, mapMutations } from 'vuex'
+import { mapState, mapActions } from 'vuex'
 import _ from 'lodash';
 export default {
-  computed : mapState({
-    todolist : (state)=> state.todolist
-  }),
-  //computed : mapState([ 'todolist']),
+  computed : mapState([ 'todolist']),
+  // methods : {
+  //     checked : function(done) {
+  //         if(done) return { checked:true };
+  //         else return { checked:false };
+  //     },
+  //     deleteTodo : function(payload) {
+  //         this.$store.dispatch(Constant.DELETE_TODO, payload);
+  //     },
+  //     doneToggle : function(payload) {
+  //         this.$store.dispatch(Constant.DONE_TOGGLE, payload);
+  //     }
+  // }
   methods : _.extend({
       checked : function(done) {
         if(done) return { checked:true };
         else return { checked:false };
       }
     },
-    // mapMutations([
-    //     Constant.DELETE_TODO ,
-    //     Constant.DONE_TOGGLE
-    // ])
-    mapMutations({
-      deleteTodo : Constant.DELETE_TODO ,
-      doneToggle : Constant.DONE_TOGGLE
-    })
+    mapActions([
+      Constant.DELETE_TODO, Constant.DONE_TOGGLE
+    ])
   )
 }
 </script>
