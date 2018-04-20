@@ -59,6 +59,6 @@ http SOP, CORS, axios, ToyProject(속성 계산명, props)
 
 ### 11. [Vuex를 이용한 상태 관리](http://1ilsang.blog.me/221257522302)
 ```javascript
-Architecture, State, Store, Mutation, Debugging, payload, mapState, <br/>
+Architecture, State, Store, Mutation, Debugging, payload, mapState,
 mapMutations, mapGetter, mapActions, _.extend(), getter, action
 ```
