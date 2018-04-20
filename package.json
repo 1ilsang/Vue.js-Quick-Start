@@ -4,7 +4,9 @@
   "description": "Vue.js 퀵 스타트 책을 공부하며 내용, 생각을 정리한 글입니다.",
   "main": "index.js",
   "dependencies": {
-    "vue-cli": "^2.9.3"
+    "lodash": "^4.17.5",
+    "vue-cli": "^2.9.3",
+    "vuex": "^3.0.1"
   },
   "devDependencies": {},
   "scripts": {

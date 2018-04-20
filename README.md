@@ -59,5 +59,6 @@ http SOP, CORS, axios, ToyProject(속성 계산명, props)
 
 ### 11. [Vuex를 이용한 상태 관리]()
 ```javascript
-Architecture, State, Store, Mutation
+Architecture, State, Store, Mutation, Debugging, payload, mapState, <br/>
+mapMutations, mapGetter, mapActions, _.extend(), getter, action
 ```
