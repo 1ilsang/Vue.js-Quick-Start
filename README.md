@@ -62,3 +62,8 @@ http SOP, CORS, axios, ToyProject(속성 계산명, props)
 Architecture, State, Store, Mutation, Debugging, payload, mapState,
 mapMutations, mapGetter, mapActions, _.extend(), getter, action
 ```
+
+### 12. [Vue-router]()
+```javascript
+라우팅
+```
