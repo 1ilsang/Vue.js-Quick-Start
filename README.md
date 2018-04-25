@@ -65,5 +65,5 @@ mapMutations, mapGetter, mapActions, _.extend(), getter, action
 
 ### 12. [Vue-router]()
 ```javascript
-Nested Routes, Navigation Guards
+Nested Routes, Navigation Guards, startsWith, Route Mode, 
 ```
