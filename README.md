@@ -63,7 +63,7 @@ Architecture, State, Store, Mutation, Debugging, payload, mapState,
 mapMutations, mapGetter, mapActions, _.extend(), getter, action
 ```
 
-### 12. [Vue-router]()
+### 12. [Vue-router](http://1ilsang.blog.me/221261528638)
 ```javascript
-Nested Routes, Navigation Guards, startsWith, Route Mode, 
+Nested Routes, Navigation Guards, startsWith, Route Mode 
 ```
