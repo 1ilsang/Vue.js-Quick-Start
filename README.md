@@ -65,5 +65,5 @@ mapMutations, mapGetter, mapActions, _.extend(), getter, action
 
 ### 12. [Vue-router]()
 ```javascript
-라우팅
+Nested Routes, Navigation Guards
 ```
