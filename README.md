@@ -1,7 +1,7 @@
 Vue.js Quick Start
 ================================
 
-<center><img width="30%" height="30%" src="./vueimg.jpg"></img></center>
+<img width="30%" height="30%" src="./vueimg.jpg"></img>
 
 >Vue.js 퀵 스타트 책을 공부하며 내용, 생각을 정리한 글입니다.<br/>
 >링크를 클릭하면 상세 정리 페이지로 이동합니다. <br/>
