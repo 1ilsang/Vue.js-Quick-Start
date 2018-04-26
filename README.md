@@ -67,3 +67,8 @@ mapMutations, mapGetter, mapActions, _.extend(), getter, action
 ```javascript
 Nested Routes, Navigation Guards, startsWith, Route Mode 
 ```
+
+### 13. [Transition]()
+```javascript
+...
+```
