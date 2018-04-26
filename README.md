@@ -70,5 +70,5 @@ Nested Routes, Navigation Guards, startsWith, Route Mode
 
 ### 13. [Transition]()
 ```javascript
-...
+Fade, Keyframes, Transition Hook, velocity.js, 
 ```
