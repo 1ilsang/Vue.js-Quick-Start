@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../15B_SSR/nuxttest/constant.js"],"names":["CHANGE_NO"],"mappings":";;;;;kBAAe;AACXA,eAAW;AADA,C","file":"constant.js","sourcesContent":["export default {\n    CHANGE_NO: \"changeNo\",\n}"]}
