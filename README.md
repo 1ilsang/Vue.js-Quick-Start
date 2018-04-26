@@ -1,8 +1,3 @@
-.center {
-  display: block;
-  margin: auto;
-}
-
 Vue.js Quick Start
 ================================
 
