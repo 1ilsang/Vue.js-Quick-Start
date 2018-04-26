@@ -78,7 +78,7 @@ Fade, Keyframes, Transition Hook, velocity.js,
 Webpack, Karma, Chai, Mocha, Jest, describe, it
 ```
 
-### 15. [서버 사이드 렌더링]()
+### 15. [서버 사이드 렌더링](http://1ilsang.blog.me/221262386204)
 ```javascript
-SSR, SEO, RoundTrip, Nuxt.js, 
+SSR, SEO, RoundTrip, Nuxt.js
 ```
