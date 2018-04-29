@@ -68,7 +68,7 @@ mapMutations, mapGetter, mapActions, _.extend(), getter, action
 Nested Routes, Navigation Guards, startsWith, Route Mode 
 ```
 
-#### 13. [Transition]()
+#### 13. [Transition](./13장_Transition/)
 ```javascript
 Fade, Keyframes, Transition Hook, velocity.js, 
 ```
