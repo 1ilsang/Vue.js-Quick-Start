@@ -83,4 +83,4 @@ Webpack, Karma, Chai, Mocha, Jest, describe, it
 SSR, SEO, RoundTrip, Nuxt.js
 ```
 - - -
-#### [뒤로 가기](./../../../)
+#### [뒤로 가기](./../../../Study/)
