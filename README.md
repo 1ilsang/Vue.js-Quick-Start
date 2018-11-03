@@ -35,55 +35,8 @@ v-on, prevent, BUBBLING_PHASE, stopPropagation, keyup, mouse event
 mouseOver, class Style, computed Style, component Style, TodoList App
 ```
 
-#### 6. [컴포넌트 기초](http://1ilsang.blog.me/221254980087)
-```javascript
-component, data option, props, event, event bus
-```
+#### 6. 컴포넌트 기초
+- 이후 내용은 비공개
 
-#### 7. [ES6](http://1ilsang.blog.me/221255052445)
-```javascript
-let, const, babel, module, ..., ES6
-```
-
-#### 8. [Webpack](http://1ilsang.blog.me/221255628941)
-```javascript
-entry, output, module, plugins, dist, webpack-dev-server, boilerplate, pwa
-```
-
-#### 9. [컴포넌트 심화](http://1ilsang.blog.me/221255898006)
-```javascript
-Single component, Scope CSS, CSS Module, Slot, Dynamic component, keep-alive, RecursiveComponent
-```
-
-#### 10. [axios를 이용한 서버통신](http://1ilsang.blog.me/221256891092)
-```javascript
-http SOP, CORS, axios, ToyProject(속성 계산명, props)
-```
-
-#### 11. [Vuex를 이용한 상태 관리](http://1ilsang.blog.me/221257522302)
-```javascript
-Architecture, State, Store, Mutation, Debugging, payload, mapState,
-mapMutations, mapGetter, mapActions, _.extend(), getter, action
-```
-
-#### 12. [Vue-router](http://1ilsang.blog.me/221261528638)
-```javascript
-Nested Routes, Navigation Guards, startsWith, Route Mode 
-```
-
-#### 13. [Transition](./13장_Transition/)
-```javascript
-Fade, Keyframes, Transition Hook, velocity.js, 
-```
-
-#### 14. [단위테스트](http://1ilsang.blog.me/221262339946)
-```javascript
-Webpack, Karma, Chai, Mocha, Jest, describe, it
-```
-
-#### 15. [서버 사이드 렌더링](http://1ilsang.blog.me/221262386204)
-```javascript
-SSR, SEO, RoundTrip, Nuxt.js
-```
 - - -
 #### [뒤로 가기](./../../../Study/)
